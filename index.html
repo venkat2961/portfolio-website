@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venkat Website</title>
+    <link rel="stylesheet" href="index.css"/>
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <h2 class="logo">MyPortfolio</h2>
+            <ul id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="toggle-btn">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Hi, I'm <span class="highlight">Venkat</span></h1>
+            <h2 id="typing"></h2>
+            <p class="fade-in">I build web apps, responsive websites.</p>
+            <a href="#projects" class="btn slide-up">View Projects</a>
+        </div>
+    </section>
+
+    <section id="about" class="section fade-section">
+        <h2>About Me</h2>
+        <p>I am a dedicated web developer focused on building clean, modern, and user-friendly websites.
+I specialize in HTML, CSS, JavaScript, and responsive front-end development.
+I enjoy creating smooth UI experiences with performance-optimized code.
+I continually improve my skills by learning new tools and technologies.
+My goal is to build digital products that look great and work flawlessly across all devices.
+        </p>
+    </section>
+    <section id="projects" class="section fade-section">
+    <h2>Projects</h2>
+
+    <div class="project-grid">
+
+        <div class="project-card zoom">
+            <img src="https://res.cloudinary.com/upwork-cloud/image/upload/c_scale,w_1000/v1688542441/catalog/1676490771814600704/nn7g08kyiu5lvqtzjslk.jpg" alt="Landing Page Project">
+            <h3>Project A</h3>
+            <p>Animated landing page built with HTML, CSS, JavaScript.</p>
+        </div>
+
+        <div class="project-card zoom">
+            <img src="https://i.ytimg.com/vi/l_yY-wM9oD0/sddefault.jpg" alt="Portfolio Website">
+            <h3>Project B</h3>
+            <p>Personal portfolio with smooth scroll animations.</p>
+        </div>
+
+        <div class="project-card zoom">
+            <img src="https://repository-images.githubusercontent.com/621657746/73fdccdd-9a96-498b-b6d4-bed0708eb663" alt="">
+            <h3>Project C</h3>
+            <p>JavaScript mini application with UI interactions.</p>
+        </div>
+    </div>
+</section>
+    <section id="contact" class="section fade-section">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required />
+            <input type="email" placeholder="Your Email" required />
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <footer>© 2025 Venkat</footer>
+</body>
+</html>
